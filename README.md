@@ -4,6 +4,8 @@
 
 In this repository, I'm practicing with ReactJs routing. 
 
+@[Maximilian Schwarzmüller ](https://github.com/maxschwarzmueller)
+
 One important feature of React is that it can render diferent elements into a single page. 
 You can choose to hide elements, show other elements, you name it... You can use only one page, one path. 
 
