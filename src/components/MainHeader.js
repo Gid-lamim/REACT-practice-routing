@@ -12,3 +12,5 @@ const MainHeader = () => {
         </nav>
     </header>
 }
+
+export default MainHeader;

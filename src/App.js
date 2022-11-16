@@ -1,7 +1,8 @@
 import {Route} from 'react-router-dom';
 
-import Welcome from './components/Welcome'
-import Products from './components/Products'
+import Welcome from './pages/Welcome'
+import Products from './pages/Products'
+import MainHeader from './components/MainHeader';
 
 function App() {
   //we use Route as a normal component.
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <div>
-      <header></header>
+      <MainHeader></MainHeader>
       <main>
         <Route path="/welcome">
           <Welcome/>
@@ -22,9 +23,7 @@ function App() {
           <Products/>
         </Route>
         <p>Here we have two paths: welcome and products. <br/> It doesn't render a different page. <br/>It just renders the component into this existing page according to the chosen path</p>
-        <a href="/welcome">welcome</a>
-        <br/>
-        <a href="/products">products</a>
+        
       </main>
     </div>
     
