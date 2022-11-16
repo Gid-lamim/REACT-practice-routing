@@ -13,16 +13,19 @@ function App() {
 
   return (
     <div>
-      <Route path="/welcome">
-        <Welcome/>
-      </Route>
-      <Route path="/products">
-        <Products/>
-      </Route>
-      <p>Here we have two paths: welcome and products. <br/> It doesn't render a different page. <br/>It just renders the component into this existing page according to the chosen path</p>
-      <a href="/welcome">welcome</a>
-      <br/>
-      <a href="/products">products</a>
+      <header></header>
+      <main>
+        <Route path="/welcome">
+          <Welcome/>
+        </Route>
+        <Route path="/products">
+          <Products/>
+        </Route>
+        <p>Here we have two paths: welcome and products. <br/> It doesn't render a different page. <br/>It just renders the component into this existing page according to the chosen path</p>
+        <a href="/welcome">welcome</a>
+        <br/>
+        <a href="/products">products</a>
+      </main>
     </div>
     
   );
