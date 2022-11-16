@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      <MainHeader></MainHeader>
+      <MainHeader/>
       <main>
         <Route path="/welcome">
           <Welcome/>

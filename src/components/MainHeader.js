@@ -1,16 +1,21 @@
+import { Link } from "react-router-dom";
+import classes from './MainHeader.module.css';
+
 const MainHeader = () => {
-    return <header>
+    return (
+    <header className={classes.header}>
         <nav>
             <ul>
                 <li>
-                    <a href="/welcome">Welcome</a>
+                    <Link to="/welcome">Welcome</Link>
                 </li>
                 <li>
-                    <a href="/products">Products</a>
+                    <Link to="/products">Products</Link>
                 </li>
             </ul>
         </nav>
     </header>
+    );
 }
 
 export default MainHeader;
