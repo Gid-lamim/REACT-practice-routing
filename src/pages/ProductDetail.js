@@ -1,3 +1,5 @@
+import {useParams} from 'react-router-dom'
+
 const ProductDetail = () =>{
     return (
         <section>
