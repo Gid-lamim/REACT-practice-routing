@@ -4,9 +4,9 @@ const Products = () => {
                 <h1>This is the Products page</h1>
 
                 <ul>
-                    <li>Product 1</li>
-                    <li>Product 2</li>
-                    <li>Product 3</li>
+                    <li>old Books</li>
+                    <li>Old screen door</li>
+                    <li>Used toilet paper</li>
                 </ul>
         </section>
     );
