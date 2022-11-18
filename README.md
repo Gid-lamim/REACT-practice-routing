@@ -29,4 +29,16 @@ What it does is: it has a prop that allows us to set a css class to the button w
 
     <NavLink activeClassName="activePage" to="/welcome">Welcome</NavLink>
 
+## Dynamic path
 
+Let's say we need to access some products details. It's good to have a path to each product.
+
+Now, creating a route to each product by hand is not ideal. It's better to have one path that can be changed according to the input.
+
+There's a hook that allows parameters or props to be passed to the page via the path.
+
+        <Route path="/product-detail/:productId">
+          <ProductDetail/>
+        </Route>
+
+In the example above, I can type anything after the colon and it will be used as a parameter.
