@@ -42,3 +42,22 @@ There's a hook that allows parameters or props to be passed to the page via the 
         </Route>
 
 In the example above, I can type anything after the colon and it will be used as a parameter.
+
+
+## Switch
+
+<Switch> prevents multiple routes to render at once. But it will render the FIRST path that matches the user input. To prevent that, we have to use the EXACT prop.
+
+           <Switch>
+            <Route path="/welcome">
+              <Welcome/>
+            </Route>
+            <Route path="/products" exact>
+              <Products/>
+            </Route>
+            <Route path="/products/:productId">
+              <ProductDetail/>
+            </Route>
+        </Switch>
+
+If I don't add the 'EXACT' prop to 'path="/products"', 'path="/products/:productId"' will never render.
