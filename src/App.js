@@ -45,7 +45,6 @@ function App() {
               <ProductDetail/>
             </Route>
         </Switch>
-        <p>Here we have two paths: welcome and products. <br/> It doesn't render a different page. <br/>It just renders the component into this existing page according to the chosen path</p>
         
       </main>
     </div>
