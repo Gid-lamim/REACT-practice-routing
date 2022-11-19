@@ -35,6 +35,9 @@ function App() {
       <MainHeader/>
       <main>
         <Switch>
+            <Route path="/" exact>
+              <Welcome/>
+            </Route>
             <Route path="/welcome">
               <Welcome/>
             </Route>
