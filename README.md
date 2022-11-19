@@ -61,3 +61,11 @@ In the example above, I can type anything after the colon and it will be used as
         </Switch>
 
 If I don't add the 'EXACT' prop to 'path="/products"', 'path="/products/:productId"' will never render.
+    
+## Redirecting users
+    
+            <Route path="/" exact>
+              <Redirect to="/welcome"/>
+            </Route>
+    
+< Redirect > redirects the user to the welcome page.
